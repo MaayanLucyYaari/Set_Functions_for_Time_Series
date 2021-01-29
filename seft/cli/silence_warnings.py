@@ -1,5 +1,6 @@
 """Make tensorflow be quite about deprication warnings."""
 import warnings
+import tensorflow
 warnings.filterwarnings('ignore', category=DeprecationWarning)
 warnings.filterwarnings('ignore', category=FutureWarning)
 from tensorflow.python.util import deprecation
