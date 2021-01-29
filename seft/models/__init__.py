@@ -8,7 +8,5 @@ from .interpolation_prediction import InterpolationPredictionModel
 
 from .deep_set_attention import DeepSetAttentionModel
 
-__all__ = [
-    'GRUSimpleModel', 'PhasedLSTMModel', 'InterpolationPredictionModel',
-    'GRUDModel', 'TransformerModel', 'DeepSetAttentionModel'
+__all__ = [ 'DeepSetAttentionModel'
 ]
